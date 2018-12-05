@@ -3,6 +3,7 @@ import '../app.css';
 import logoWhite from'./../../../public/assets/logo-white.png'
 import NavBar from './NavBar.jsx'
 import Content from './Content.jsx'
+import './../../../public/assets/favicon.ico';
 
 export default class App extends Component {
   constructor(props) {

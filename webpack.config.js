@@ -30,6 +30,12 @@ const outputDir = 'dist';
             options: { limit: 10000000 }
           }
         ]
+      },
+      {
+        test: /\.ico$/,
+        use: [{
+          loader: 'file-loader?name=[name].[ext]'  
+        }]
       }
     ]
   },
