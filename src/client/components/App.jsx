@@ -1,31 +1,26 @@
 import React, { Component } from 'react';
 import '../app.css';
 import logoWhite from'./../../../public/assets/logo-white.png'
-// import NavBar from './NavBar.jsx'
+import NavBar from './NavBar.jsx'
+import Content from './Content.jsx'
 
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      
-    }
+    this.state = {}
   }
-  
-  componentDidMount() {
-    
-  }
-  
-  
+
   render() {
 
     return(
-      <div id='splash'>
-        <img id='logo' src={logoWhite} />
-        <h1>a React-GraphQL devtool</h1>
-        <div>
-          <h2>Please give us stars!!!</h2>
+      <div>
+        <div id='splash'>
+          <NavBar />
+          <img id='logo' src={logoWhite} />
+          <h1>a React-GraphQL devtool</h1>
           <button>Install</button>
         </div>
+        <Content />
       </div>
     )
   }

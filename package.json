@@ -1,14 +1,11 @@
 {
-  "name": "reactlucidio",
+  "name": "reactlucid.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production", 
-    "start": "npm run build", 
-    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "webpack-dev-server --mode development --devtool inline-source-map --hot"
   },
   "keywords": [],
   "author": "",
@@ -24,11 +21,9 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^1.0.0",
-    "concurrently": "^4.1.0",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "nodemon": "^1.18.7",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.27.0",
