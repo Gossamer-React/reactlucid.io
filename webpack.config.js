@@ -23,7 +23,7 @@ const outputDir = 'dist';
         use: [ 'style-loader', 'css-loader' ]
       },
       {
-        test: /\.(png|ttf|svg|jpg|gif)$/i,
+        test: /\.(png|ttf|svg|jpg|jpeg|gif)$/i,
         use: [
           {
             loader: 'url-loader',

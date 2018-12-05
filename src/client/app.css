@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
   margin: 0;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+#splash {
+  /* background-image: url('./../assets/lucid-background.jpeg'); */
+  background-image: url('./../../public/assets/lucid-background2.jpeg');
+  height: 900px;
+  text-align: center;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: .5em;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+}
+#logo {
+  width: 700px;
+  margin: 100px;
 }
