@@ -10,7 +10,7 @@ body{
 #splash {
   /* background-image: url('./../assets/lucid-background.jpeg'); */
   background-image: url('./../../public/assets/lucid-background2.jpeg');
-  height: 900px;
+  height: 950px;
   text-align: center;
 }
 h1{

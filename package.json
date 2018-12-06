@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production", 
-    "start": "npm run build", 
+    "build": "webpack --mode production",
+    "start": "npm run build",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
