@@ -8,7 +8,7 @@ const NavBar = () => {
       {/* <img src={logo} style={{height: '40px', float: 'left', margin: '5px 30px'}}/> */}
       <ul>
         <li>
-          <a href="https://github.com/Gossamer-React/React-Lucid">Github</a>
+          <a href="https://github.com/Gossamer-React/React-Lucid"><b>Github</b></a>
         </li>
       </ul>
     </div>
