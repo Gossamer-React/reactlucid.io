@@ -16,18 +16,29 @@ p{
   padding: 10px;
 }
 #splash{
-  /* background-image: url('./../../public/assets/lucid-background.jpeg'); */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   background-image: url('./../../public/assets/lucid-background2.jpeg');
-  height: 800px;
+  height: 1000px;
   text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fa-chevron-circle-down{
+  margin-top: 15px;
+  font-size: 50px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 h1, h2, h3{
   font-family: 'Quicksand', sans-serif;
-  letter-spacing: .5em;
+  letter-spacing: .3em;
   color: white;
   text-transform: uppercase;
   padding: 20px;
@@ -83,4 +94,11 @@ ul{
   padding: 100px;
   display: flex;
   flex-flow: column;
+}
+
+/* * Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  #splash{
+    height: 900px;
+  }
 }

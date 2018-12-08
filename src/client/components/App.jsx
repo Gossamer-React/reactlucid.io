@@ -19,10 +19,12 @@ export default class App extends Component {
     return (
       <div>
         <div id='splash'>
-          <NavBar />
+          {/* <NavBar /> */}
           <img id='logo' src={logoWhite} />
           <h1>a React-GraphQL devtool</h1>
           <button>Install</button>
+          <h2>More Info</h2>
+          <i className='fas fa-chevron-circle-down'></i>
         </div>
         <div className='content'>
           <Content />
