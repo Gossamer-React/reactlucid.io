@@ -1,0 +1,13 @@
+#github-btns{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.space{
+  margin-right: 10px;
+}
+#lucid-bio{
+  width: 80%;
+  text-align: left;
+  margin: 0px auto;
+}

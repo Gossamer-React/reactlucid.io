@@ -1,0 +1,27 @@
+#lucid-setup{
+  color: white;
+}
+
+#table-setup{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+th{
+  border: 1px solid white;
+  padding: 5px 30px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid white;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.strong{
+  color: red;
+  font-weight: 800;
+}

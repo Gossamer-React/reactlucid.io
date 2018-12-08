@@ -49,13 +49,6 @@ h1, h2, h3{
 #logo{
   width: 60%;
 }
-.content{
-  height: 1000px;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 100px;
-}
 button{
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
@@ -81,4 +74,13 @@ button:hover{
 }
 ul{
   list-style: none;
+}
+
+.content{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  flex-flow: column;
 }
