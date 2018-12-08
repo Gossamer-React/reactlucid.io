@@ -4,33 +4,56 @@ import '../features.css';
 const Features = () => {
   return (
     <div id='features'>
-      <h2>How It Works</h2>
+      <h2>How Lucid Works</h2>
       <h3>React Tab</h3>
-      <p>
-        Lucid parses through your React app to generate an interactive tree
-        graph representing your React component hierarchy, with node-specific
-        state and props data. The tree updates upon each change to the React
-        app's state, and displays a log of state diffs on the left. This is done
-        by creating a persistent data bridge to the user's React application via
-        the Javascript API for WebExtensions' background and content scripts.
-        Lucid injects scripts utilizing React DevTool's Global Hook to
-        recursively traverse through the React DOM each time setState is called,
-        resulting in a tree and a log that each display real-time feedback. Our
-        app itself uses React internally so as the state of your live app
-        changes, the Lucid tree graph will also provide visual feedback of data
-        flow and state changes through the React components immediately.
-      </p>
+      <div className='lucid-features'>
+        <div>
+          <li>
+            Utilizing React Devtool's Global Hook Lucid is able to recursively
+            traverse through the DOM retrieving information that is used to
+            display in a tree diagram.
+          </li>
+
+          <li>
+            Hovering over any React component on that is displayed on the tree
+            will display the state and props in a log on the top left.
+          </li>
+
+          <li>
+            Lucid also gives a user the freedom to toggle out boilerplate
+            components that may just take up unnecessary space.
+          </li>
+
+          <li>
+            Lucid provides a state diff log as well. Which tracks the changes in
+            your state whenever setState( ) is triggered.
+          </li>
+        </div>
+        <h3>This is where the example will go!</h3>
+      </div>
       <h3>GraphQL Tab</h3>
-      <p>
-        Lucid intercepts HTTP requests using Chrome Devtool APIs to display a
-        log of real-time Apollo client queries and mutations, along with
-        associated response objects. Lucid also uses GraphQL schema
-        introspection to display schema information from the server. This allows
-        full-stack developers to debug their app from the front-end all the way
-        through to the back-end, as requests are generated, responses come back
-        from the server, data flows through React components, and render in the
-        DOM.
-      </p>
+      <div className='lucid-features'>
+        <div>
+          <li>
+            Leveraging the devtool.network API Lucid is able to provide
+            information about a application's GraphQL queries.
+          </li>
+          <li>
+            Lucid is also able to display schema informationrom the server using
+            the GraphQL schema introspection.
+          </li>
+          <li>
+            Lucid logs out all previous request the application has made,
+            allowing the user's to view all associated data with that previous
+            request.
+          </li>
+          <li>
+            Users are able to toggle the information close if a user would like
+            to hide any information.
+          </li>
+        </div>
+        <h3>This is where the example will go!</h3>
+      </div>
     </div>
   );
 };

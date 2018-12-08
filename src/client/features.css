@@ -1,0 +1,8 @@
+.lucid-features{
+  display: flex;
+  text-align: left;
+}
+
+li{
+  margin: 10px 0;
+}

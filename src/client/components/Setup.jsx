@@ -8,8 +8,8 @@ const Setup = () => {
 
       <table id='table-setup'>
         <tr className='table-headings'>
-          <th>Install from Chrome Extension Store</th>
-          <th>Build your own extension</th>
+          <th> <i class="fab fa-chrome"></i> Install from Chrome Extension Store</th>
+          <th> <i class="fas fa-download"></i> Build your own extension</th>
         </tr>
         <tr className='table-headings'>
           <td>1. Install React Developer Tools.</td>
