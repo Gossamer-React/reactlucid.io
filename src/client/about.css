@@ -1,7 +1,7 @@
 #team{
   display: flex;
   justify-content: space-evenly;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 .single-p{
   margin: 0 auto;
@@ -15,7 +15,32 @@
   padding: 0;
 }
 .pro-img{
-  width: 180px;
-  height: 175px;
+  width: 150px;
+  height: 145px;
   border-radius: 100px;
+}
+
+.person{
+  width: 40%;
+  margin: 10px 5px;
+}
+
+/* * Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .person{
+    width: 50%;
+    margin: 10px 0;
+  }
+  .pro-img{
+    width: 180px;
+    height: 175px;
+  }
+}
+
+/* * Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .person{
+    margin-top: 10px;
+    width: 25%;
+  }
 }

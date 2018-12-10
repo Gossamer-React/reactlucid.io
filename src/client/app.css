@@ -12,21 +12,21 @@ a{
   text-decoration: none;
 }
 p{
-  width: 60%;
+  width: 80%;
   padding: 10px;
 }
 #splash{
   display: flex;
   flex-flow: column;
-  justify-content: center;
   align-items: center;
   background-image: url('./../../public/assets/lucid-background2.jpeg');
-  height: 1000px;
   text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5.5em;
+  height: 500px;
 }
 
 .fa-chevron-circle-down{
@@ -43,7 +43,7 @@ h1, h2, h3{
   text-transform: uppercase;
   padding: 20px;
 }
-.navBar{
+/* .navBar{
   padding: 50px;
   text-align: right;
 }
@@ -56,7 +56,7 @@ h1, h2, h3{
 }
 .navBar a:hover{
   color: black;
-}
+} */
 #logo{
   width: 60%;
 }
@@ -91,14 +91,45 @@ ul{
   background-color: black;
   color: white;
   text-align: center;
-  padding: 100px;
   display: flex;
   flex-flow: column;
+  padding: 20px;
 }
 
-/* * Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
+/* * Extra small devices (portrait phones, less than 576px) */
+/* * No media query for `xs` since this is the default in Bootstrap */
+
+/* * Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* * Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1, h2, h3{
+    letter-spacing: .2em;
+  }
+  .content{
+    padding: 40px;
+  }
+}
+
+/* * Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   #splash{
-    height: 900px;
+    height: 700px;
+  }
+  h1, h2, h3{
+    letter-spacing: .3em;
+  }
+  .content{
+    padding: 100px;
+  }
+}
+
+/* * Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #splash{
+    height: 850px;
   }
 }

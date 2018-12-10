@@ -5,8 +5,8 @@
 #table-setup{
   border: 1px solid white;
   border-collapse: collapse;
-  width: 80%;
   margin: 0 auto;
+  font-size: 1em;
 }
 
 th{
@@ -24,4 +24,11 @@ td {
 .strong{
   color: red;
   font-weight: 800;
+}
+
+/* * Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #table-setup{
+    width: 80%;
+  }
 }

@@ -10,22 +10,22 @@ const About = () => {
     <div>
       <h2>About Our Team</h2>
       <div id='team'>
-        <div>
+        <div className ='person'>
           <img className='pro-img' src={eternaImg} />
           <h3 className='name'>Eterna</h3>
           <p className='single-p'>Software Engineer</p>
         </div>
-        <div>
+        <div className ='person'>
           <img className='pro-img' src={neyserImg} />
           <h3 className='name'>Neyser</h3>
           <p className='single-p'>Software Engineer</p>
         </div>
-        <div>
+        <div className ='person'>
           <img className='pro-img' src={nianImg} />
           <h3 className='name'>Nian</h3>
           <p className='single-p'>Software Engineer</p>
         </div>
-        <div>
+        <div className ='person'>
           <img className='pro-img' src={yongImg} />
           <h3 className='name'>Yong</h3>
           <p className='single-p'>Software Engineer</p>
