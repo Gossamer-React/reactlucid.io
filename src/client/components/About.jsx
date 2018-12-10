@@ -8,7 +8,7 @@ import yongImg from './../../../public/assets/team/yong.jpg';
 const About = () => {
   return (
     <div>
-      <h2>About Our Team</h2>
+      <h2>Meet Our Developers</h2>
       <div id='team'>
         <div className ='person'>
           <img className='pro-img' src={eternaImg} />
