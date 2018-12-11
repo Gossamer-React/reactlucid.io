@@ -10,8 +10,8 @@ const Features = () => {
         <div>
           <li>
             Utilizing React Devtool's Global Hook, Lucid is able to recursively
-            traverse the DOM, retrieving information that is used to
-            display a tree diagram.
+            traverse the DOM, retrieving information about rendered nodes that is
+            used to display a React component tree graph.
           </li>
 
           <li>
