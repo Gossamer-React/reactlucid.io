@@ -9,24 +9,24 @@ const Features = () => {
       <div className='lucid-features'>
         <div>
           <li>
-            Utilizing React Devtool's Global Hook Lucid is able to recursively
-            traverse through the DOM retrieving information that is used to
-            display in a tree diagram.
+            Utilizing React Devtool's Global Hook, Lucid is able to recursively
+            traverse the DOM, retrieving information that is used to
+            display a tree diagram.
           </li>
 
           <li>
-            Hovering over any React component on that is displayed on the tree
-            will display the state and props in a log on the top left.
+            Hovering over any React component displayed in the tree graph
+            will display its state and props.
           </li>
 
           <li>
-            Lucid also gives a user the freedom to toggle out boilerplate
-            components that may just take up unnecessary space.
+            Lucid's component display also allows users to filter out boilerplate
+            components from user created components, reducing clutter and complexity.
           </li>
 
           <li>
-            Lucid provides a state diff log as well. Which tracks the changes in
-            your state whenever setState( ) is triggered.
+            Lucid provides a state diff log which tracks changes in stateful
+            components whenever setState( ) is triggered.
           </li>
         </div>
         <h3>This is where the example will go!</h3>
@@ -35,21 +35,21 @@ const Features = () => {
       <div className='lucid-features'>
         <div>
           <li>
-            Leveraging the devtool.network API Lucid is able to provide
-            information about a application's GraphQL queries.
+            Leveraging Chrome's devtool.network API, Lucid is able to provide
+            information about an application's external GraphQL queries.
           </li>
           <li>
-            Lucid is also able to display schema informationrom the server using
-            the GraphQL schema introspection.
+            Lucid is also able to display GraphQL schema information from the server 
+            using Apollo's schema introspection.
           </li>
           <li>
-            Lucid logs out all previous request the application has made,
-            allowing the user's to view all associated data with that previous
-            request.
+            Lucid logs all GraphQL request/response cycles initiated by the app,
+            providing an historical view of all external data, and the ability to
+            review all previous resource fetches.
           </li>
           <li>
-            Users are able to toggle the information close if a user would like
-            to hide any information.
+            Lucid is currently optimized for Apollo server. In future releases, we
+            plan to provide support for other GraphQL server implementations.
           </li>
         </div>
         <h3>This is where the example will go!</h3>
