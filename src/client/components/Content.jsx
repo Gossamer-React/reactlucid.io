@@ -4,7 +4,8 @@ import '../content.css';
 const Content = () => {
   return (
     <div>
-      <h2>Enjoy our developer tool? Follow us and give a star.</h2>
+      <h2>Enjoy our developer tool?</h2>
+      <h2>Follow us and give a star.</h2>
       <div id='github-btns'>
         {/* allows a user to follow our repo by watching the repo */}
         <a
