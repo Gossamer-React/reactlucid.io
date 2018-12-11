@@ -34,9 +34,9 @@ const Content = () => {
 
       <p id='lucid-bio'>
         Lucid is a React / GraphQL Chrome Developer Tool designed to help
-        developers debug their React applications that depend on GraphQL
+        engineers debug their React applications that depend on GraphQL
         resources. Lucid allows you to visualize the component hierarchy of your
-        React application, and your GraphQL schema, queries, and mutations side
+        React application, as well as your GraphQL schema, queries, and mutations side
         by side, making debugging fast and focused.
         <br/>
         <br/>
