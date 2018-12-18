@@ -2,17 +2,23 @@
   display: flex;
   text-align: left;
 }
-
-li{
-  margin: 30px;
-  list-style: none;
-}
 h4{
   font-style: italic;
   padding-bottom: 40px;
   width: 80%;
   margin: auto;
   font-weight: 300;
+}
+.bullets{
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.fa-2x, .bullets img {
+  margin-right: 20px;
+}
+li{
+  list-style: none;
 }
 .demo {
   width: 65%;

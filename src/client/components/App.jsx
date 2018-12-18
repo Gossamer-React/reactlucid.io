@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../app.css';
-import logoWhite from './../../../public/assets/logo-white.png';
+// import logoWhite from './../../../public/assets/logo-white.png';
+import logoWhite from './../../../public/assets/logo-min.png';
 import NavBar from './NavBar.jsx';
 import Intro from './Intro.jsx';
 import Features from './Features.jsx';

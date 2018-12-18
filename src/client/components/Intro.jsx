@@ -1,5 +1,5 @@
 import React from 'react';
-import demo from './../../../public/assets/demo.mp4';
+// import demo from './../../../public/assets/demo.mp4';
 import logos from './../../../public/assets/graphql-react-logos.png';
 import '../intro.css';
 
@@ -15,7 +15,7 @@ const Intro = () => {
       <p>Visualize the component hierarchy, state/props data and state changes of your React application</p>
       <p>See your GraphQL schema, queries, and mutations in real-time</p>
       <video loop autoPlay controls width='100%' muted >
-        <source src={demo} type='video/mp4' />
+        <source src='http://reactlucid.io/demo.mp4' type='video/mp4' />
       </video>
       </div>
       <h3>Like our developer tool? Give us a star!</h3>
