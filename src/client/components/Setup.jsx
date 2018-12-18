@@ -13,19 +13,18 @@ const Setup = () => {
             <th> <i className="fas fa-download"></i> Build your own extension</th>
           </tr>
           <tr className='table-headings'>
-            <td>1. Install <a href='https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en'>React Developer Tools</a>.</td>
+            <td>1. Install <b><a href='https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en'>React Developer Tools</a></b>.</td>
             <td>1. Clone the repo and npm install</td>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>2. Install <a href='https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'>Lucid</a> or <b className='strong'>Build your own extension</b>.</td>
+            <td>2. Install <b><a href='https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'>Lucid</a></b> or <b className='strong'>Build your own extension</b>.</td>
             <td>2. npm run build</td>
           </tr>
           <tr>
             <td>
-              3. Run your React-GraphQL application or open a site that uses React
-              v16+ or GraphQL.
+              3. Open your React (v16+) GraphQL application.
           </td>
             <td>
               3. Navigate to chrome://extensions.
@@ -33,15 +32,14 @@ const Setup = () => {
           </tr>
           <tr>
             <td>
-              4. Open Chrome Developer Tools (Inspect) and click on the Lucid panel.
+              4. Open Chrome Developer Tools (Inspect).
           </td>
             <td>
-              4. Click <b className='strong'>Load Unpacked</b> and select the './react-lucid/build' folder
-              from your local directory.
+              4. Load Unpacked from './react-lucid/build'.
           </td>
           </tr>
           <tr>
-            <td>5. Have fun!</td>
+            <td>5. Click on the Lucid panel and enjoy!</td>
             <td></td>
           </tr>
         </tbody>

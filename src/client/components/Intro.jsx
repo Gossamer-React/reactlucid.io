@@ -1,11 +1,25 @@
 import React from 'react';
+// import demo from './../../../public/assets/demo.mp4';
+import logos from './../../../public/assets/graphql-react-logos.png';
 import '../intro.css';
 
 const Intro = () => {
   return (
     <div>
-      <h2>Enjoy our developer tool?</h2>
-      <h3>Follow us and give a star.</h3>
+      <div>
+      <img src={logos} height='100px' />
+      <h1>Lucid</h1>
+      <p id='lucid-bio'>
+      A Chrome Developer Tool designed to help engineers debug React-GraphQL applications.
+      </p>
+      <p>Visualize the component hierarchy, state/props data and state changes of your React application</p>
+      <p>See your GraphQL schema, queries, and mutations in real-time</p>
+      <video loop autoPlay controls width='100%' muted >
+        <source src='http://reactlucid.io/demo.mp4' type='video/mp4' />
+      </video>
+      </div>
+      <h3>Like our developer tool? Give us a star!</h3>
+
       <div id='github-btns'>
         {/* allows a user to follow our repo by watching the repo */}
         <a
@@ -33,19 +47,7 @@ const Intro = () => {
         </a>
       </div>
 
-      <p id='lucid-bio'>
-        Lucid is a React / GraphQL Chrome Developer Tool designed to help
-        engineers debug their React applications that depend on GraphQL
-        resources. Lucid allows you to visualize the component hierarchy of your
-        React application, as well as your GraphQL schema, queries, and mutations side
-        by side, making debugging fast and focused.
-        <br/>
-        <br/>
-        <span>
-          IMPORTANT: Lucid is in BETA mode and works best for React v16+ local
-          projects in development environments.
-        </span>
-      </p>
+
     </div>
   );
 };

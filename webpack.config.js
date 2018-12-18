@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebPackPlugin = require('clean-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 const outputDir = 'dist';
 
  module.exports = {
@@ -32,7 +33,7 @@ const outputDir = 'dist';
         ]
       },
       {
-        test: /\.ico$/,
+        test: /\.(ico|mp4)$/,
         use: [{
           loader: 'file-loader?name=[name].[ext]'  
         }]
@@ -51,5 +52,7 @@ const outputDir = 'dist';
     new HtmlWebpackPlugin({
       template: './public/index.html'
     })
+    , 
+    new CompressionPlugin()
   ]
 }
