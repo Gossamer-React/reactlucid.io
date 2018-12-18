@@ -13,13 +13,13 @@ const Setup = () => {
             <th> <i className="fas fa-download"></i> Build your own extension</th>
           </tr>
           <tr className='table-headings'>
-            <td>1. Install React Developer Tools.</td>
-            <td>1. Clone the repo and install dependendies: npm install</td>
+            <td>1. Install <a href='https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en'>React Developer Tools</a>.</td>
+            <td>1. Clone the repo and npm install</td>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>2. Install Lucid or <b className='strong'>Build your own extension</b>.</td>
+            <td>2. Install <a href='https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'>Lucid</a> or <b className='strong'>Build your own extension</b>.</td>
             <td>2. npm run build</td>
           </tr>
           <tr>
@@ -28,14 +28,12 @@ const Setup = () => {
               v16+ or GraphQL.
           </td>
             <td>
-              3. Navigate to chrome://extensions (or in your Chrome Browser
-            Settings, click on <b className='strong'>More Tools</b> >> <b className='strong'>Extensions</b>).
+              3. Navigate to chrome://extensions.
           </td>
           </tr>
           <tr>
             <td>
-              4. Open Chrome Developer Tools (Inspect or Cmd+Opt+I / Ctrl+Shift+I)
-              and click on the Lucid panel.
+              4. Open Chrome Developer Tools (Inspect) and click on the Lucid panel.
           </td>
             <td>
               4. Click <b className='strong'>Load Unpacked</b> and select the './react-lucid/build' folder
