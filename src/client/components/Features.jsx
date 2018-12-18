@@ -8,13 +8,13 @@ const Features = () => {
     <div id='features'>
       <h2>How Lucid Works</h2>
       <h3>React Tab</h3>
+      <h4>
+        Utilizing React Devtool's Global Hook, Lucid is able to recursively
+        traverse the DOM, retrieving information about rendered nodes that is
+        used to display a React component tree graph.
+      </h4>
       <div className='lucid-features'>
         <div>
-          <li>
-            Utilizing React Devtool's Global Hook, Lucid is able to recursively
-            traverse the DOM, retrieving information about rendered nodes that is
-            used to display a React component tree graph.
-          </li>
 
           <li>
             Hovering over any React component displayed in the tree graph
@@ -31,15 +31,14 @@ const Features = () => {
             components whenever setState( ) is triggered.
           </li>
         </div>
-        <img class='demo' src={graphqlDemo} />
+        <img className='demo' src={reactDemo} />
       </div>
       <h3>GraphQL Tab</h3>
+      <h4>Leveraging Chrome's devtool.network API, Lucid is able to provide information about an application's external GraphQL queries.
+      </h4>
       <div className='lucid-features'>
         <div>
-          <li>
-            Leveraging Chrome's devtool.network API, Lucid is able to provide
-            information about an application's external GraphQL queries.
-          </li>
+
           <li>
             Lucid is also able to display GraphQL schema information from the server 
             using Apollo's schema introspection.
@@ -54,7 +53,7 @@ const Features = () => {
             plan to provide support for other GraphQL server implementations.
           </li>
         </div>
-        <img class='demo' src={reactDemo} />
+        <img className='demo' src={graphqlDemo} />
       </div>
     </div>
   );

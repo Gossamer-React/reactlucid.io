@@ -12,8 +12,8 @@ a{
   text-decoration: none;
 }
 p{
-  width: 80%;
-  padding: 10px;
+  /* width: 80%;
+  padding: 10px; */
 }
 #splash{
   display: flex;
