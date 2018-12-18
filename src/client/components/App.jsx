@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../app.css';
 import logoWhite from './../../../public/assets/logo-white.png';
 import NavBar from './NavBar.jsx';
-import Content from './Content.jsx';
+import Intro from './Intro.jsx';
 import Features from './Features.jsx';
 import About from './About.jsx';
 import Setup from './Setup.jsx';
@@ -19,17 +19,16 @@ export default class App extends Component {
     return (
       <div>
         <div id='splash'>
-          {/* <NavBar /> */}
+          <NavBar />
           <img id='logo' src={logoWhite} />
           <h1>a React-GraphQL devtool</h1>
-          <button>Install</button>
-          <h2>More Info</h2>
+          <button><a href = 'https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'>Install</a></button>
           <Link to='content' smooth={true} offset={30} duration={900}>
             <i className='fas fa-chevron-circle-down' />
           </Link>
         </div>
         <div className='content' name='content'>
-          <Content />
+          <Intro />
           <Setup />
           <Features />
           <About />

@@ -1,11 +1,11 @@
 import React from 'react';
-import '../content.css';
+import '../intro.css';
 
-const Content = () => {
+const Intro = () => {
   return (
     <div>
       <h2>Enjoy our developer tool?</h2>
-      <h2>Follow us and give a star.</h2>
+      <h3>Follow us and give a star.</h3>
       <div id='github-btns'>
         {/* allows a user to follow our repo by watching the repo */}
         <a
@@ -49,4 +49,4 @@ const Content = () => {
     </div>
   );
 };
-export default Content;
+export default Intro;

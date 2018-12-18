@@ -4,7 +4,7 @@ import '../setup.css';
 const Setup = () => {
   return (
     <div id='lucid-setup'>
-      <h2>How to setup Lucid</h2>
+      <h2>Setup</h2>
 
       <table id='table-setup'>
         <thead>
