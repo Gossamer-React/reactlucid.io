@@ -13,22 +13,22 @@ const About = () => {
         <div className ='person'>
           <img className='pro-img' src={eternaImg} />
           <h3 className='name'>Eterna</h3>
-          <p className='single-p'>Software Engineer</p>
+          <p className='single-p'><a href = 'https://twitter.com/eterna_t'>@eterna_t</a></p>
         </div>
         <div className ='person'>
           <img className='pro-img' src={neyserImg} />
           <h3 className='name'>Neyser</h3>
-          <p className='single-p'>Software Engineer</p>
+          <p className='single-p'><a href = 'https://twitter.com/eterna_t'>@eterna_t</a></p>
         </div>
         <div className ='person'>
           <img className='pro-img' src={nianImg} />
           <h3 className='name'>Nian</h3>
-          <p className='single-p'>Software Engineer</p>
+          <p className='single-p'><a href = 'https://twitter.com/niantendo'>@niantendo</a></p>
         </div>
         <div className ='person'>
           <img className='pro-img' src={yongImg} />
           <h3 className='name'>Yong-Nicholas</h3>
-          <p className='single-p'>Software Engineer</p>
+          <p className='single-p'><a href = 'https://twitter.com/yongnicholaskim'>@yongnicholaskim</a></p>
         </div>
       </div>
     </div>

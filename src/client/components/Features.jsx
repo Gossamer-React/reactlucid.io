@@ -1,4 +1,6 @@
 import React from 'react';
+import graphqlDemo from './../../../public/assets/demo-photo-graphql.png';
+import reactDemo from './../../../public/assets/demo-photo-react.png';
 import '../features.css';
 
 const Features = () => {
@@ -29,7 +31,7 @@ const Features = () => {
             components whenever setState( ) is triggered.
           </li>
         </div>
-        <h3>This is where the example will go!</h3>
+        <img class='demo' src={graphqlDemo} />
       </div>
       <h3>GraphQL Tab</h3>
       <div className='lucid-features'>
@@ -52,7 +54,7 @@ const Features = () => {
             plan to provide support for other GraphQL server implementations.
           </li>
         </div>
-        <h3>This is where the example will go!</h3>
+        <img class='demo' src={reactDemo} />
       </div>
     </div>
   );
