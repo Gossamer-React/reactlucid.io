@@ -32,7 +32,7 @@ const outputDir = 'dist';
         ]
       },
       {
-        test: /\.ico$/,
+        test: /\.(ico|mp4)$/,
         use: [{
           loader: 'file-loader?name=[name].[ext]'  
         }]

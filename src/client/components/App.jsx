@@ -22,9 +22,11 @@ export default class App extends Component {
           <NavBar />
           <img id='logo' src={logoWhite} />
           <h1>a React-GraphQL devtool</h1>
-          <button><a href = 'https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'>Install</a></button>
+          <a href = 'https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'><button>Install</button></a>
           <Link to='content' smooth={true} offset={30} duration={900}>
-            <i className='fas fa-chevron-circle-down' />
+            <div id='arrow-down'>
+              <i className='fas fa-angle-double-down' />
+            </div>
           </Link>
         </div>
         <div className='content' name='content'>

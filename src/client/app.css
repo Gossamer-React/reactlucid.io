@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,900');
 
 * {
   margin: 0;
 }
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: black;
   color: white;
 }
 a{
   text-decoration: none;
-}
-p{
-  /* width: 80%;
-  padding: 10px; */
+  color: white; 
 }
 #splash{
   display: flex;
@@ -25,15 +23,25 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5.5em;
   height: 500px;
 }
 
-.fa-chevron-circle-down{
+.fa-angle-double-down{
   margin-top: 15px;
-  font-size: 50px;
+  font-size: 30px;
   opacity: 0.7;
   cursor: pointer;
+  transition: all 1s ease;
+}
+@keyframes jump { 0% { top: 0; } 50% { top: 50px; } 100% { top: 0; } }
+#arrow-down {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  animation: jump 5s infinite;
+}
+.fa-angle-double-down:hover {
+  color: black;
 }
 
 h1, h2, h3{
@@ -41,22 +49,27 @@ h1, h2, h3{
   letter-spacing: .3em;
   color: white;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 20px; 
 }
-/* .navBar{
-  padding: 50px;
+h2{
+  padding-top: 100px;
+}
+.navBar{
   text-align: right;
+  margin-right: 75px;
+  margin-top: 40px;
+  width: 100%;
 }
 .navBar a{
   font-family: 'Quicksand', sans-serif;
   letter-spacing: .3em;
   color: white;
   text-transform: uppercase;
-  transition: all .4s ease;
+  transition: all 1s ease;
 }
 .navBar a:hover{
   color: black;
-} */
+}
 #logo{
   width: 60%;
 }
@@ -67,14 +80,14 @@ button{
   letter-spacing: .2em;
   width: 250px;
   height: 35px;
-  /* background-color: Transparent; */
   background-color: rgba(255, 255, 255, 0.75);
   color: black;
   border: none;
   border-radius: 5px;
-  margin: 10px;
   cursor: pointer;
-  transition: all .4s ease;
+  transition: all 1s ease;
+  /* REMOVE: */
+  margin: 10px;
 }
 button:focus{
   outline: none;
@@ -83,17 +96,12 @@ button:hover{
   background-color: black;
   color: white;
 }
-ul{
-  list-style: none;
-}
 
 .content{
-  background-color: black;
-  color: white;
   text-align: center;
   display: flex;
   flex-flow: column;
-  padding: 20px;
+  margin-top: 100px;
 }
 
 /* * Extra small devices (portrait phones, less than 576px) */
@@ -117,19 +125,19 @@ ul{
 /* * Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #splash{
-    height: 700px;
+    height: 600px;
   }
   h1, h2, h3{
     letter-spacing: .3em;
   }
   .content{
-    padding: 100px;
+    padding: 0px 100px 25px; 
   }
 }
 
 /* * Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #splash{
-    height: 850px;
+    height: 700px;
   }
 }

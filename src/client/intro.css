@@ -8,5 +8,9 @@
 }
 #lucid-bio{
   width: 75%;
+  font-style: italic;
   margin: 20px auto;
+}
+video{
+  margin-top: 50px;
 }

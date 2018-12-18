@@ -1,7 +1,8 @@
 #table-setup{
   border-collapse: collapse;
   margin: 0 auto;
-  font-size: 1em;
+  table-layout: fixed;
+  width: 100%;
 }
 
 th{
