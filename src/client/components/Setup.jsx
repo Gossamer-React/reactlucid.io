@@ -13,13 +13,13 @@ const Setup = () => {
             <th> <i className="fas fa-download"></i> Build your own extension</th>
           </tr>
           <tr className='table-headings'>
-            <td>1. Install <b><a href='https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en'>React Developer Tools</a></b>.</td>
+            <td>1. Install <b><a href='https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en' target='_blank'>React Developer Tools</a></b>.</td>
             <td>1. Clone the repo and npm install</td>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>2. Install <b><a href='https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc'>Lucid</a></b> or <b className='strong'>Build your own extension</b>.</td>
+            <td>2. Install <b><a href='https://chrome.google.com/webstore/detail/lucid/pnaoeldlekbfpnalhabggkcddleelamc' target='_blank'>Lucid</a></b> or <b className='strong'>Build your own extension</b>.</td>
             <td>2. npm run build</td>
           </tr>
           <tr>
